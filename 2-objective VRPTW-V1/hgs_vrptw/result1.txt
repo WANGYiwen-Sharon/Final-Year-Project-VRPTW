@@ -1,0 +1,82 @@
+../test/R2_10_1.txt
+
+----- WRITING SOLUTION WITH VALUE 377797 IN : test.sol
+../test/R2_10_10.txt
+
+----- WRITING SOLUTION WITH VALUE 311135 IN : test.sol
+../test/R2_10_2.txt
+
+----- WRITING SOLUTION WITH VALUE 327905 IN : test.sol
+../test/R2_10_3.txt
+
+----- WRITING SOLUTION WITH VALUE 259815 IN : test.sol
+../test/R2_10_4.txt
+
+----- WRITING SOLUTION WITH VALUE 186795 IN : test.sol
+../test/R2_10_5.txt
+
+----- WRITING SOLUTION WITH VALUE 349784 IN : test.sol
+../test/R2_10_6.txt
+
+----- WRITING SOLUTION WITH VALUE 308073 IN : test.sol
+../test/R2_10_7.txt
+
+----- WRITING SOLUTION WITH VALUE 244177 IN : test.sol
+../test/R2_10_8.txt
+
+----- WRITING SOLUTION WITH VALUE 181510 IN : test.sol
+../test/R2_10_9.txt
+
+----- WRITING SOLUTION WITH VALUE 334388 IN : test.sol
+../test/R2_2_1.sol
+EXCEPTION | Unexpected data in input file: Route
+../test/R2_2_1.txt
+
+----- WRITING SOLUTION WITH VALUE 34680 IN : test.sol
+../test/R2_2_10.sol
+EXCEPTION | Unexpected data in input file: Route
+../test/R2_2_10.txt
+
+----- RESET: CREATING A NEW POPULATION -----
+----- WRITING SOLUTION WITH VALUE 25494 IN : test.sol
+../test/R2_2_2.sol
+EXCEPTION | Unexpected data in input file: Route
+../test/R2_2_2.txt
+
+../test/R2_2_1.txt
+
+----- WRITING SOLUTION WITH VALUE 34680 IN : test.sol
+../test/R2_2_10.txt
+
+----- RESET: CREATING A NEW POPULATION -----
+----- WRITING SOLUTION WITH VALUE 25494 IN : test.sol
+../test/R2_2_2.txt
+
+----- RESET: CREATING A NEW POPULATION -----
+----- WRITING SOLUTION WITH VALUE 30082 IN : test.sol
+../test/R2_2_3.txt
+
+----- RESET: CREATING A NEW POPULATION -----
+----- WRITING SOLUTION WITH VALUE 25375 IN : test.sol
+../test/R2_2_4.txt
+
+----- RESET: CREATING A NEW POPULATION -----
+----- WRITING SOLUTION WITH VALUE 19285 IN : test.sol
+../test/R2_2_5.txt
+
+----- RESET: CREATING A NEW POPULATION -----
+----- WRITING SOLUTION WITH VALUE 30638 IN : test.sol
+../test/R2_2_6.txt
+
+----- RESET: CREATING A NEW POPULATION -----
+----- WRITING SOLUTION WITH VALUE 26755 IN : test.sol
+../test/R2_2_7.txt
+
+----- RESET: CREATING A NEW POPULATION -----
+----- WRITING SOLUTION WITH VALUE 23047 IN : test.sol
+../test/R2_2_8.txt
+
+----- WRITING SOLUTION WITH VALUE 18424 IN : test.sol
+../test/R2_2_9.txt
+
+----- WRITING SOLUTION WITH VALUE 28453 IN : test.sol

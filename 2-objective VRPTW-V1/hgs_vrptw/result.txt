@@ -1,0 +1,931 @@
+../test/C1_10_1.txt
+
+----- WRITING SOLUTION WITH VALUE 424448 IN : test.sol
+../test/C1_10_10.txt
+
+----- WRITING SOLUTION WITH VALUE 408603 IN : test.sol
+../test/C1_10_2.txt
+
+----- WRITING SOLUTION WITH VALUE 414332 IN : test.sol
+../test/C1_10_3.txt
+
+----- WRITING SOLUTION WITH VALUE 405815 IN : test.sol
+../test/C1_10_4.txt
+
+----- WRITING SOLUTION WITH VALUE 398090 IN : test.sol
+../test/C1_10_5.txt
+
+----- WRITING SOLUTION WITH VALUE 424348 IN : test.sol
+../test/C1_10_6.txt
+
+----- WRITING SOLUTION WITH VALUE 424370 IN : test.sol
+../test/C1_10_7.txt
+
+----- WRITING SOLUTION WITH VALUE 424228 IN : test.sol
+../test/C1_10_8.txt
+
+----- WRITING SOLUTION WITH VALUE 422485 IN : test.sol
+../test/C1_10_9.txt
+
+----- WRITING SOLUTION WITH VALUE 408865 IN : test.sol
+../test/C1_2_1.txt
+
+----- WRITING SOLUTION WITH VALUE 26986 IN : test.sol
+../test/C1_2_10.txt
+
+----- WRITING SOLUTION WITH VALUE 26247 IN : test.sol
+../test/C1_2_2.txt
+
+----- WRITING SOLUTION WITH VALUE 26943 IN : test.sol
+../test/C1_2_3.txt
+
+----- WRITING SOLUTION WITH VALUE 26758 IN : test.sol
+../test/C1_2_4.txt
+
+----- WRITING SOLUTION WITH VALUE 26256 IN : test.sol
+../test/C1_2_5.txt
+
+----- WRITING SOLUTION WITH VALUE 26949 IN : test.sol
+../test/C1_2_6.txt
+
+----- WRITING SOLUTION WITH VALUE 26949 IN : test.sol
+../test/C1_2_7.txt
+
+----- WRITING SOLUTION WITH VALUE 26949 IN : test.sol
+../test/C1_2_8.txt
+
+----- WRITING SOLUTION WITH VALUE 26840 IN : test.sol
+../test/C1_2_9.txt
+
+----- WRITING SOLUTION WITH VALUE 26396 IN : test.sol
+../test/C1_4_1.txt
+
+----- WRITING SOLUTION WITH VALUE 71388 IN : test.sol
+../test/C1_4_10.txt
+
+----- WRITING SOLUTION WITH VALUE 68270 IN : test.sol
+../test/C1_4_2.txt
+
+----- WRITING SOLUTION WITH VALUE 71133 IN : test.sol
+../test/C1_4_3.txt
+
+----- WRITING SOLUTION WITH VALUE 69299 IN : test.sol
+../test/C1_4_4.txt
+
+----- WRITING SOLUTION WITH VALUE 67931 IN : test.sol
+../test/C1_4_5.txt
+
+----- WRITING SOLUTION WITH VALUE 71388 IN : test.sol
+../test/C1_4_6.txt
+
+----- WRITING SOLUTION WITH VALUE 71401 IN : test.sol
+../test/C1_4_7.txt
+
+----- WRITING SOLUTION WITH VALUE 71362 IN : test.sol
+../test/C1_4_8.txt
+
+----- WRITING SOLUTION WITH VALUE 71070 IN : test.sol
+../test/C1_4_9.txt
+
+----- WRITING SOLUTION WITH VALUE 69613 IN : test.sol
+../test/C1_6_1.txt
+
+----- WRITING SOLUTION WITH VALUE 140766 IN : test.sol
+../test/C1_6_10.txt
+
+----- WRITING SOLUTION WITH VALUE 136642 IN : test.sol
+../test/C1_6_2.txt
+
+----- WRITING SOLUTION WITH VALUE 139530 IN : test.sol
+../test/C1_6_3.txt
+
+----- WRITING SOLUTION WITH VALUE 138774 IN : test.sol
+../test/C1_6_4.txt
+
+----- WRITING SOLUTION WITH VALUE 136078 IN : test.sol
+../test/C1_6_5.txt
+
+----- WRITING SOLUTION WITH VALUE 140668 IN : test.sol
+../test/C1_6_6.txt
+
+----- WRITING SOLUTION WITH VALUE 140709 IN : test.sol
+../test/C1_6_7.txt
+
+----- WRITING SOLUTION WITH VALUE 140668 IN : test.sol
+../test/C1_6_8.txt
+
+----- WRITING SOLUTION WITH VALUE 139973 IN : test.sol
+../test/C1_6_9.txt
+
+----- WRITING SOLUTION WITH VALUE 137214 IN : test.sol
+../test/C1_8_1.txt
+
+----- WRITING SOLUTION WITH VALUE 251569 IN : test.sol
+../test/C1_8_10.txt
+
+----- WRITING SOLUTION WITH VALUE 242160 IN : test.sol
+../test/C1_8_2.txt
+
+----- WRITING SOLUTION WITH VALUE 250275 IN : test.sol
+../test/C1_8_3.txt
+
+----- WRITING SOLUTION WITH VALUE 245096 IN : test.sol
+../test/C1_8_4.txt
+
+----- WRITING SOLUTION WITH VALUE 239155 IN : test.sol
+../test/C1_8_5.txt
+
+----- WRITING SOLUTION WITH VALUE 251386 IN : test.sol
+../test/C1_8_6.txt
+
+----- WRITING SOLUTION WITH VALUE 251333 IN : test.sol
+../test/C1_8_7.txt
+
+----- WRITING SOLUTION WITH VALUE 251273 IN : test.sol
+../test/C1_8_8.txt
+
+----- WRITING SOLUTION WITH VALUE 250132 IN : test.sol
+../test/C1_8_9.txt
+
+----- WRITING SOLUTION WITH VALUE 243086 IN : test.sol
+../test/C2_10_1.txt
+
+----- WRITING SOLUTION WITH VALUE 168411 IN : test.sol
+../test/C2_10_10.txt
+
+----- WRITING SOLUTION WITH VALUE 157731 IN : test.sol
+../test/C2_10_2.txt
+
+----- WRITING SOLUTION WITH VALUE 164714 IN : test.sol
+../test/C2_10_3.txt
+
+----- WRITING SOLUTION WITH VALUE 160553 IN : test.sol
+../test/C2_10_4.txt
+
+----- WRITING SOLUTION WITH VALUE 155814 IN : test.sol
+../test/C2_10_5.txt
+
+----- WRITING SOLUTION WITH VALUE 165380 IN : test.sol
+../test/C2_10_6.txt
+
+----- WRITING SOLUTION WITH VALUE 163170 IN : test.sol
+../test/C2_10_7.txt
+
+----- WRITING SOLUTION WITH VALUE 163817 IN : test.sol
+../test/C2_10_8.txt
+
+----- WRITING SOLUTION WITH VALUE 160452 IN : test.sol
+../test/C2_10_9.txt
+
+----- WRITING SOLUTION WITH VALUE 160908 IN : test.sol
+../test/C2_2_1.txt
+
+----- WRITING SOLUTION WITH VALUE 19221 IN : test.sol
+../test/C2_2_10.txt
+
+----- WRITING SOLUTION WITH VALUE 17912 IN : test.sol
+../test/C2_2_2.txt
+
+----- WRITING SOLUTION WITH VALUE 18514 IN : test.sol
+../test/C2_2_3.txt
+
+----- WRITING SOLUTION WITH VALUE 17634 IN : test.sol
+../test/C2_2_4.txt
+
+----- WRITING SOLUTION WITH VALUE 16950 IN : test.sol
+../test/C2_2_5.txt
+
+----- WRITING SOLUTION WITH VALUE 18696 IN : test.sol
+../test/C2_2_6.txt
+
+----- WRITING SOLUTION WITH VALUE 18448 IN : test.sol
+../test/C2_2_7.txt
+
+----- WRITING SOLUTION WITH VALUE 18429 IN : test.sol
+../test/C2_2_8.txt
+
+----- WRITING SOLUTION WITH VALUE 18137 IN : test.sol
+../test/C2_2_9.txt
+
+----- WRITING SOLUTION WITH VALUE 18150 IN : test.sol
+../test/C2_4_1.txt
+
+----- WRITING SOLUTION WITH VALUE 41003 IN : test.sol
+../test/C2_4_10.txt
+
+----- WRITING SOLUTION WITH VALUE 36695 IN : test.sol
+../test/C2_4_2.txt
+
+----- WRITING SOLUTION WITH VALUE 39141 IN : test.sol
+../test/C2_4_3.txt
+
+----- WRITING SOLUTION WITH VALUE 37552 IN : test.sol
+../test/C2_4_4.txt
+
+----- WRITING SOLUTION WITH VALUE 35237 IN : test.sol
+../test/C2_4_5.txt
+
+----- WRITING SOLUTION WITH VALUE 39275 IN : test.sol
+../test/C2_4_6.txt
+
+----- WRITING SOLUTION WITH VALUE 38601 IN : test.sol
+../test/C2_4_7.txt
+
+----- WRITING SOLUTION WITH VALUE 38709 IN : test.sol
+../test/C2_4_8.txt
+
+----- WRITING SOLUTION WITH VALUE 37769 IN : test.sol
+../test/C2_4_9.txt
+
+----- WRITING SOLUTION WITH VALUE 38437 IN : test.sol
+../test/C2_6_1.txt
+
+----- WRITING SOLUTION WITH VALUE 77522 IN : test.sol
+../test/C2_6_10.txt
+
+----- WRITING SOLUTION WITH VALUE 71325 IN : test.sol
+../test/C2_6_2.txt
+
+----- WRITING SOLUTION WITH VALUE 74738 IN : test.sol
+../test/C2_6_3.txt
+
+----- WRITING SOLUTION WITH VALUE 72253 IN : test.sol
+../test/C2_6_4.txt
+
+----- WRITING SOLUTION WITH VALUE 68947 IN : test.sol
+../test/C2_6_5.txt
+
+----- WRITING SOLUTION WITH VALUE 75538 IN : test.sol
+../test/C2_6_6.txt
+
+----- WRITING SOLUTION WITH VALUE 74518 IN : test.sol
+../test/C2_6_7.txt
+
+----- WRITING SOLUTION WITH VALUE 75177 IN : test.sol
+../test/C2_6_8.txt
+
+----- WRITING SOLUTION WITH VALUE 73041 IN : test.sol
+../test/C2_6_9.txt
+
+----- WRITING SOLUTION WITH VALUE 73223 IN : test.sol
+../test/C2_8_1.txt
+
+----- WRITING SOLUTION WITH VALUE 116327 IN : test.sol
+../test/C2_8_10.txt
+
+----- WRITING SOLUTION WITH VALUE 109742 IN : test.sol
+../test/C2_8_2.txt
+
+----- WRITING SOLUTION WITH VALUE 113964 IN : test.sol
+../test/C2_8_3.txt
+
+----- WRITING SOLUTION WITH VALUE 111475 IN : test.sol
+../test/C2_8_4.txt
+
+----- WRITING SOLUTION WITH VALUE 106890 IN : test.sol
+../test/C2_8_5.txt
+
+----- WRITING SOLUTION WITH VALUE 113991 IN : test.sol
+../test/C2_8_6.txt
+
+----- WRITING SOLUTION WITH VALUE 113228 IN : test.sol
+../test/C2_8_7.txt
+
+----- WRITING SOLUTION WITH VALUE 113436 IN : test.sol
+../test/C2_8_8.txt
+
+----- WRITING SOLUTION WITH VALUE 111512 IN : test.sol
+../test/C2_8_9.txt
+
+----- WRITING SOLUTION WITH VALUE 111457 IN : test.sol
+../test/R2_10_1.txt
+
+----- WRITING SOLUTION WITH VALUE 377530 IN : test.sol
+../test/R2_10_10.txt
+
+----- WRITING SOLUTION WITH VALUE 311045 IN : test.sol
+../test/R2_10_2.txt
+
+----- WRITING SOLUTION WITH VALUE 327281 IN : test.sol
+../test/R2_10_3.txt
+
+----- WRITING SOLUTION WITH VALUE 259629 IN : test.sol
+../test/R2_10_4.txt
+
+----- WRITING SOLUTION WITH VALUE 186519 IN : test.sol
+../test/R2_10_5.txt
+
+----- WRITING SOLUTION WITH VALUE 349380 IN : test.sol
+../test/R2_10_6.txt
+
+----- WRITING SOLUTION WITH VALUE 307449 IN : test.sol
+../test/R2_10_7.txt
+
+----- WRITING SOLUTION WITH VALUE 243244 IN : test.sol
+../test/R2_10_8.txt
+
+----- WRITING SOLUTION WITH VALUE 180707 IN : test.sol
+../test/R2_10_9.txt
+
+----- WRITING SOLUTION WITH VALUE 332182 IN : test.sol
+../test/R2_2_1.txt
+
+----- WRITING SOLUTION WITH VALUE 34680 IN : test.sol
+../test/R2_2_10.txt
+
+----- WRITING SOLUTION WITH VALUE 25494 IN : test.sol
+../test/R2_2_2.txt
+
+----- WRITING SOLUTION WITH VALUE 30082 IN : test.sol
+../test/R2_2_3.txt
+
+----- WRITING SOLUTION WITH VALUE 25375 IN : test.sol
+../test/R2_2_4.txt
+
+----- WRITING SOLUTION WITH VALUE 19285 IN : test.sol
+../test/R2_2_5.txt
+
+----- WRITING SOLUTION WITH VALUE 30638 IN : test.sol
+../test/R2_2_6.txt
+
+----- WRITING SOLUTION WITH VALUE 26755 IN : test.sol
+../test/R2_2_7.txt
+
+----- WRITING SOLUTION WITH VALUE 23047 IN : test.sol
+../test/R2_2_8.txt
+
+----- WRITING SOLUTION WITH VALUE 18424 IN : test.sol
+../test/R2_2_9.txt
+
+----- WRITING SOLUTION WITH VALUE 28453 IN : test.sol
+../test/R2_4_1.txt
+
+----- WRITING SOLUTION WITH VALUE 75217 IN : test.sol
+../test/R2_4_10.txt
+
+----- WRITING SOLUTION WITH VALUE 56952 IN : test.sol
+../test/R2_4_2.txt
+
+----- WRITING SOLUTION WITH VALUE 64841 IN : test.sol
+../test/R2_4_3.txt
+
+----- WRITING SOLUTION WITH VALUE 53774 IN : test.sol
+../test/R2_4_4.txt
+
+----- WRITING SOLUTION WITH VALUE 42186 IN : test.sol
+../test/R2_4_5.txt
+
+----- WRITING SOLUTION WITH VALUE 65681 IN : test.sol
+../test/R2_4_6.txt
+
+----- WRITING SOLUTION WITH VALUE 58342 IN : test.sol
+../test/R2_4_7.txt
+
+----- WRITING SOLUTION WITH VALUE 49181 IN : test.sol
+../test/R2_4_8.txt
+
+----- WRITING SOLUTION WITH VALUE 40152 IN : test.sol
+../test/R2_4_9.txt
+
+----- WRITING SOLUTION WITH VALUE 60825 IN : test.sol
+../test/R2_6_1.txt
+
+----- WRITING SOLUTION WITH VALUE 151989 IN : test.sol
+../test/R2_6_10.txt
+
+----- WRITING SOLUTION WITH VALUE 118925 IN : test.sol
+../test/R2_6_2.txt
+
+----- WRITING SOLUTION WITH VALUE 130610 IN : test.sol
+../test/R2_6_3.txt
+
+----- WRITING SOLUTION WITH VALUE 104843 IN : test.sol
+../test/R2_6_4.txt
+
+----- WRITING SOLUTION WITH VALUE 79535 IN : test.sol
+../test/R2_6_5.txt
+
+----- WRITING SOLUTION WITH VALUE 139035 IN : test.sol
+../test/R2_6_6.txt
+
+----- WRITING SOLUTION WITH VALUE 120317 IN : test.sol
+../test/R2_6_7.txt
+
+----- WRITING SOLUTION WITH VALUE 99498 IN : test.sol
+../test/R2_6_8.txt
+
+----- WRITING SOLUTION WITH VALUE 76920 IN : test.sol
+../test/R2_6_9.txt
+
+----- WRITING SOLUTION WITH VALUE 130328 IN : test.sol
+../test/R2_8_1.txt
+
+----- WRITING SOLUTION WITH VALUE 252610 IN : test.sol
+../test/R2_8_10.txt
+
+----- WRITING SOLUTION WITH VALUE 204806 IN : test.sol
+../test/R2_8_2.txt
+
+----- WRITING SOLUTION WITH VALUE 220239 IN : test.sol
+../test/R2_8_3.txt
+
+----- WRITING SOLUTION WITH VALUE 181085 IN : test.sol
+../test/C2_10_1.txt
+
+----- WRITING SOLUTION WITH VALUE 168411 IN : test.sol
+../test/C2_10_10.txt
+
+----- WRITING SOLUTION WITH VALUE 157755 IN : test.sol
+../test/C2_10_2.txt
+
+----- WRITING SOLUTION WITH VALUE 164714 IN : test.sol
+../test/C2_10_3.txt
+
+----- WRITING SOLUTION WITH VALUE 160553 IN : test.sol
+../test/C2_10_4.txt
+
+----- WRITING SOLUTION WITH VALUE 155814 IN : test.sol
+../test/C2_10_5.txt
+
+----- WRITING SOLUTION WITH VALUE 165380 IN : test.sol
+../test/C2_10_6.txt
+
+----- WRITING SOLUTION WITH VALUE 163169 IN : test.sol
+../test/C2_10_7.txt
+
+----- WRITING SOLUTION WITH VALUE 163817 IN : test.sol
+../test/C2_10_8.txt
+
+----- WRITING SOLUTION WITH VALUE 160452 IN : test.sol
+../test/C2_10_9.txt
+
+----- WRITING SOLUTION WITH VALUE 160908 IN : test.sol
+../test/C2_8_10.txt
+
+----- WRITING SOLUTION WITH VALUE 109737 IN : test.sol
+../test/C2_8_4.txt
+
+----- WRITING SOLUTION WITH VALUE 106890 IN : test.sol
+../test/C2_8_5.txt
+
+----- WRITING SOLUTION WITH VALUE 113991 IN : test.sol
+../test/C2_8_6.txt
+
+----- WRITING SOLUTION WITH VALUE 113228 IN : test.sol
+../test/C2_8_7.txt
+
+----- WRITING SOLUTION WITH VALUE 113436 IN : test.sol
+../test/C2_8_8.txt
+
+----- WRITING SOLUTION WITH VALUE 111512 IN : test.sol
+../test/C2_8_9.txt
+
+----- WRITING SOLUTION WITH VALUE 111457 IN : test.sol
+../test/R2_10_1.txt
+
+----- WRITING SOLUTION WITH VALUE 377685 IN : test.sol
+../test/R2_10_10.txt
+
+----- WRITING SOLUTION WITH VALUE 311045 IN : test.sol
+../test/R2_10_2.txt
+
+----- WRITING SOLUTION WITH VALUE 327556 IN : test.sol
+../test/R2_10_3.txt  ----- WRITING SOLUTION WITH VALUE 259629 IN : test.sol
+../test/R2_10_4.txt
+
+----- WRITING SOLUTION WITH VALUE 186450 IN : test.sol
+../test/R2_10_5.txt
+
+----- WRITING SOLUTION WITH VALUE 349784 IN : test.sol
+../test/R2_10_6.txt
+
+----- WRITING SOLUTION WITH VALUE 308073 IN : test.sol
+../test/R2_10_7.txt
+
+----- WRITING SOLUTION WITH VALUE 243244 IN : test.sol
+../test/R2_10_8.txt
+
+----- WRITING SOLUTION WITH VALUE 181510 IN : test.sol
+../test/R2_10_9.txt
+
+----- WRITING SOLUTION WITH VALUE 333378 IN : test.sol
+../test/R2_2_1.txt
+
+----- WRITING SOLUTION WITH VALUE 34680 IN : test.sol
+../test/R2_2_10.txt
+
+----- WRITING SOLUTION WITH VALUE 25494 IN : test.sol
+../test/R2_2_2.txt
+
+----- WRITING SOLUTION WITH VALUE 30082 IN : test.sol
+../test/R2_2_3.txt
+
+----- WRITING SOLUTION WITH VALUE 25375 IN : test.sol
+../test/R2_2_4.txt
+
+----- WRITING SOLUTION WITH VALUE 19285 IN : test.sol
+../test/R2_2_5.txt
+
+----- WRITING SOLUTION WITH VALUE 30638 IN : test.sol
+../test/R2_2_6.txt
+
+----- WRITING SOLUTION WITH VALUE 26755 IN : test.sol
+../test/R2_2_7.txt
+
+----- WRITING SOLUTION WITH VALUE 23047 IN : test.sol
+../test/R2_2_8.txt
+
+----- WRITING SOLUTION WITH VALUE 18424 IN : test.sol
+../test/R2_2_9.txt
+
+----- WRITING SOLUTION WITH VALUE 28453 IN : test.sol
+../test/R2_4_1.txt
+
+----- WRITING SOLUTION WITH VALUE 75217 IN : test.sol
+../test/R2_4_10.txt
+
+----- WRITING SOLUTION WITH VALUE 56952 IN : test.sol
+../test/R2_4_2.txt
+
+----- WRITING SOLUTION WITH VALUE 64841 IN : test.sol
+../test/R2_4_3.txt
+
+----- WRITING SOLUTION WITH VALUE 53774 IN : test.sol
+../test/R2_4_4.txt
+
+----- WRITING SOLUTION WITH VALUE 42184 IN : test.sol
+../test/R2_4_5.txt
+
+----- WRITING SOLUTION WITH VALUE 65681 IN : test.sol
+../test/R2_4_6.txt
+
+----- WRITING SOLUTION WITH VALUE 58348 IN : test.sol
+../test/R2_4_7.txt
+
+----- WRITING SOLUTION WITH VALUE 49181 IN : test.sol
+../test/R2_4_8.txt
+
+----- WRITING SOLUTION WITH VALUE 40153 IN : test.sol
+../test/R2_4_9.txt
+
+----- WRITING SOLUTION WITH VALUE 60825 IN : test.sol
+../test/R2_6_1.txt
+
+----- WRITING SOLUTION WITH VALUE 151989 IN : test.sol
+../test/R2_6_10.txt
+
+----- WRITING SOLUTION WITH VALUE 118925 IN : test.sol
+../test/R2_6_2.txt
+
+----- WRITING SOLUTION WITH VALUE 130806 IN : test.sol
+../test/R2_6_3.txt
+
+----- WRITING SOLUTION WITH VALUE 104843 IN : test.sol
+../test/R2_6_4.txt
+
+----- WRITING SOLUTION WITH VALUE 79535 IN : test.sol
+../test/R2_6_5.txt
+
+----- WRITING SOLUTION WITH VALUE 139059 IN : test.sol
+../test/R2_6_6.txt
+
+----- WRITING SOLUTION WITH VALUE 120434 IN : test.sol
+../test/R2_6_7.txt
+
+----- WRITING SOLUTION WITH VALUE 99729 IN : test.sol
+../test/R2_6_8.txt
+
+----- WRITING SOLUTION WITH VALUE 75826 IN : test.sol
+../test/R2_6_9.txt
+
+----- WRITING SOLUTION WITH VALUE 128312 IN : test.sol
+../test/R2_8_1.txt
+
+----- WRITING SOLUTION WITH VALUE 252212 IN : test.sol
+../test/R2_8_10.txt
+
+----- WRITING SOLUTION WITH VALUE 203367 IN : test.sol
+../test/R2_8_2.txt
+
+----- WRITING SOLUTION WITH VALUE 220239 IN : test.sol
+../test/R2_8_3.txt
+
+----- WRITING SOLUTION WITH VALUE 177411 IN : test.sol
+../test/R2_8_4.txt
+
+----- WRITING SOLUTION WITH VALUE 133915 IN : test.sol
+../test/R2_8_5.txt
+
+----- WRITING SOLUTION WITH VALUE 230703 IN : test.sol
+../test/R2_8_6.txt
+
+----- WRITING SOLUTION WITH VALUE 206478 IN : test.sol
+../test/R2_8_7.txt
+
+----- WRITING SOLUTION WITH VALUE 168965 IN : test.sol
+../test/R2_8_8.txt
+
+----- WRITING SOLUTION WITH VALUE 130002 IN : test.sol
+../test/R2_8_9.txt
+
+----- WRITING SOLUTION WITH VALUE 216411 IN : test.sol
+../test/RC1_10_1.txt
+
+----- WRITING SOLUTION WITH VALUE 474377 IN : test.sol
+../test/RC1_10_10.txt
+
+----- WRITING SOLUTION WITH VALUE 451082 IN : test.sol
+../test/RC1_10_2.txt
+
+----- WRITING SOLUTION WITH VALUE 457116 IN : test.sol
+../test/RC1_10_3.txt
+
+----- WRITING SOLUTION WITH VALUE 440037 IN : test.sol
+../test/RC1_10_4.txt
+
+----- WRITING SOLUTION WITH VALUE 426723 IN : test.sol
+../test/RC1_10_5.txt
+
+----- WRITING SOLUTION WITH VALUE 468939 IN : test.sol
+../test/RC1_10_6.txt
+
+----- WRITING SOLUTION WITH VALUE 466953 IN : test.sol
+../test/RC1_10_7.txt
+
+----- WRITING SOLUTION WITH VALUE 459324 IN : test.sol
+../test/RC1_10_8.txt
+
+----- WRITING SOLUTION WITH VALUE 452569 IN : test.sol
+../test/RC1_10_9.txt
+
+----- WRITING SOLUTION WITH VALUE 453518 IN : test.sol
+../test/RC1_2_1.txt
+
+----- WRITING SOLUTION WITH VALUE 35169 IN : test.sol
+../test/RC1_2_10.txt
+
+----- WRITING SOLUTION WITH VALUE 29949 IN : test.sol
+../test/RC1_2_2.txt
+
+----- WRITING SOLUTION WITH VALUE 32251 IN : test.sol
+../test/RC1_2_3.txt
+
+----- WRITING SOLUTION WITH VALUE 30014 IN : test.sol
+../test/RC1_2_4.txt
+
+----- WRITING SOLUTION WITH VALUE 28452 IN : test.sol
+../test/RC1_2_5.txt
+
+----- WRITING SOLUTION WITH VALUE 33263 IN : test.sol
+../test/RC1_2_6.txt
+
+----- WRITING SOLUTION WITH VALUE 33007 IN : test.sol
+../test/RC1_2_7.txt
+
+----- WRITING SOLUTION WITH VALUE 31778 IN : test.sol
+../test/RC1_2_8.txt
+
+----- WRITING SOLUTION WITH VALUE 30844 IN : test.sol
+../test/RC1_2_9.txt
+
+----- WRITING SOLUTION WITH VALUE 30749 IN : test.sol
+../test/RC1_4_1.txt
+
+----- WRITING SOLUTION WITH VALUE 85689 IN : test.sol
+../test/RC1_4_10.txt
+
+----- WRITING SOLUTION WITH VALUE 76018 IN : test.sol
+../test/RC1_4_2.txt
+
+----- WRITING SOLUTION WITH VALUE 79490 IN : test.sol
+../test/RC1_4_3.txt
+
+----- WRITING SOLUTION WITH VALUE 75484 IN : test.sol
+../test/RC1_4_4.txt
+
+----- WRITING SOLUTION WITH VALUE 73033 IN : test.sol
+../test/RC1_4_5.txt
+
+----- WRITING SOLUTION WITH VALUE 81871 IN : test.sol
+../test/RC1_4_6.txt
+
+----- WRITING SOLUTION WITH VALUE 81792 IN : test.sol
+../test/RC1_4_7.txt
+
+----- WRITING SOLUTION WITH VALUE 79795 IN : test.sol
+../test/RC1_4_8.txt
+
+----- WRITING SOLUTION WITH VALUE 77846 IN : test.sol
+../test/RC1_4_9.txt
+
+----- WRITING SOLUTION WITH VALUE 77832 IN : test.sol
+../test/RC1_6_1.txt
+
+----- WRITING SOLUTION WITH VALUE 171145 IN : test.sol
+../test/RC1_6_10.txt
+
+----- WRITING SOLUTION WITH VALUE 159064 IN : test.sol
+../test/RC1_6_2.txt
+
+----- WRITING SOLUTION WITH VALUE 162169 IN : test.sol
+../test/RC1_6_3.txt
+
+----- WRITING SOLUTION WITH VALUE 154126 IN : test.sol
+../test/RC1_6_4.txt
+
+----- WRITING SOLUTION WITH VALUE 148868 IN : test.sol
+../test/RC1_6_5.txt
+
+----- WRITING SOLUTION WITH VALUE 168517 IN : test.sol
+../test/RC1_6_6.txt
+
+----- WRITING SOLUTION WITH VALUE 166346 IN : test.sol
+../test/RC1_6_7.txt
+
+----- WRITING SOLUTION WITH VALUE 162194 IN : test.sol
+../test/RC1_6_8.txt
+
+----- WRITING SOLUTION WITH VALUE 160984 IN : test.sol
+../test/RC1_6_9.txt
+
+----- WRITING SOLUTION WITH VALUE 160930 IN : test.sol
+../test/RC1_8_1.txt
+
+----- WRITING SOLUTION WITH VALUE 305997 IN : test.sol
+../test/RC1_8_10.txt
+
+----- WRITING SOLUTION WITH VALUE 290132 IN : test.sol
+../test/RC1_8_2.txt
+
+----- WRITING SOLUTION WITH VALUE 291965 IN : test.sol
+../test/RC1_8_3.txt
+
+----- WRITING SOLUTION WITH VALUE 279896 IN : test.sol
+../test/RC1_8_4.txt
+
+----- WRITING SOLUTION WITH VALUE 269601 IN : test.sol
+../test/RC1_8_5.txt
+
+----- WRITING SOLUTION WITH VALUE 296422 IN : test.sol
+../test/RC1_8_6.txt
+
+----- WRITING SOLUTION WITH VALUE 298980 IN : test.sol
+../test/RC1_8_7.txt
+
+----- WRITING SOLUTION WITH VALUE 292530 IN : test.sol
+../test/RC1_8_8.txt
+
+----- WRITING SOLUTION WITH VALUE 292112 IN : test.sol
+../test/RC1_8_9.txt
+
+----- WRITING SOLUTION WITH VALUE 288784 IN : test.sol
+../test/RC2_10_1.txt
+
+----- WRITING SOLUTION WITH VALUE 288869 IN : test.sol
+../test/RC2_10_10.txt
+
+----- WRITING SOLUTION WITH VALUE 225003 IN : test.sol
+../test/RC2_10_2.txt
+
+----- WRITING SOLUTION WITH VALUE 253066 IN : test.sol
+../test/RC2_10_3.txt
+
+----- WRITING SOLUTION WITH VALUE 205008 IN : test.sol
+../test/RC2_10_4.txt
+
+----- WRITING SOLUTION WITH VALUE 161195 IN : test.sol
+../test/RC2_10_5.txt
+
+----- WRITING SOLUTION WITH VALUE 264989 IN : test.sol
+../test/RC2_10_6.txt
+
+----- WRITING SOLUTION WITH VALUE 264099 IN : test.sol
+../test/RC2_10_7.txt
+
+----- WRITING SOLUTION WITH VALUE 252102 IN : test.sol
+../test/RC2_10_8.txt
+
+----- WRITING SOLUTION WITH VALUE 240960 IN : test.sol
+../test/RC2_10_9.txt
+
+----- WRITING SOLUTION WITH VALUE 233156 IN : test.sol
+../test/RC2_2_1.txt
+
+----- WRITING SOLUTION WITH VALUE 27974 IN : test.sol
+../test/RC2_2_10.txt
+
+----- WRITING SOLUTION WITH VALUE 19908 IN : test.sol
+../test/RC2_2_2.txt
+
+----- WRITING SOLUTION WITH VALUE 24816 IN : test.sol
+../test/RC2_2_3.txt
+
+----- WRITING SOLUTION WITH VALUE 22291 IN : test.sol
+../test/RC2_2_4.txt
+
+----- WRITING SOLUTION WITH VALUE 18588 IN : test.sol
+../test/RC2_2_5.txt
+
+----- WRITING SOLUTION WITH VALUE 24914 IN : test.sol
+../test/RC2_2_6.txt
+
+----- WRITING SOLUTION WITH VALUE 24951 IN : test.sol
+../test/RC2_2_7.txt
+
+----- WRITING SOLUTION WITH VALUE 22877 IN : test.sol
+../test/RC2_2_8.txt
+
+----- WRITING SOLUTION WITH VALUE 21512 IN : test.sol
+../test/RC2_2_9.txt
+
+----- WRITING SOLUTION WITH VALUE 20866 IN : test.sol
+../test/RC2_4_1.txt
+
+----- WRITING SOLUTION WITH VALUE 61623 IN : test.sol
+../test/RC2_4_10.txt
+
+----- WRITING SOLUTION WITH VALUE 42883 IN : test.sol
+../test/RC2_4_2.txt
+
+----- WRITING SOLUTION WITH VALUE 54075 IN : test.sol
+../test/RC2_4_3.txt
+
+----- WRITING SOLUTION WITH VALUE 45744 IN : test.sol
+../test/RC2_4_4.txt
+
+----- WRITING SOLUTION WITH VALUE 36014 IN : test.sol
+../test/RC2_4_5.txt
+
+----- WRITING SOLUTION WITH VALUE 53972 IN : test.sol
+../test/RC2_4_6.txt
+
+----- WRITING SOLUTION WITH VALUE 53390 IN : test.sol
+../test/RC2_4_7.txt
+
+----- WRITING SOLUTION WITH VALUE 50032 IN : test.sol
+../test/RC2_4_8.txt
+
+----- WRITING SOLUTION WITH VALUE 47055 IN : test.sol
+../test/RC2_4_9.txt
+
+----- WRITING SOLUTION WITH VALUE 45382 IN : test.sol
+../test/RC2_6_1.txt
+
+----- WRITING SOLUTION WITH VALUE 120190 IN : test.sol
+../test/RC2_6_10.txt
+
+----- WRITING SOLUTION WITH VALUE 90510 IN : test.sol
+../test/RC2_6_2.txt
+
+----- WRITING SOLUTION WITH VALUE 104083 IN : test.sol
+../test/RC2_6_3.txt
+
+----- WRITING SOLUTION WITH VALUE 89402 IN : test.sol
+../test/RC2_6_4.txt
+
+----- WRITING SOLUTION WITH VALUE 70612 IN : test.sol
+../test/RC2_6_5.txt
+
+----- WRITING SOLUTION WITH VALUE 111378 IN : test.sol
+../test/RC2_6_6.txt
+
+----- WRITING SOLUTION WITH VALUE 108755 IN : test.sol
+../test/RC2_6_7.txt
+
+----- WRITING SOLUTION WITH VALUE 103329 IN : test.sol
+../test/RC2_6_8.txt
+
+----- WRITING SOLUTION WITH VALUE 99176 IN : test.sol
+../test/RC2_6_9.txt
+
+----- WRITING SOLUTION WITH VALUE 95263 IN : test.sol
+../test/RC2_8_1.txt
+
+----- WRITING SOLUTION WITH VALUE 193576 IN : test.sol
+../test/RC2_8_10.txt
+
+----- WRITING SOLUTION WITH VALUE 145919 IN : test.sol
+../test/RC2_8_2.txt
+
+----- WRITING SOLUTION WITH VALUE 168612 IN : test.sol
+../test/RC2_8_3.txt
+
+----- WRITING SOLUTION WITH VALUE 141398 IN : test.sol
+../test/RC2_8_4.txt
+
+----- WRITING SOLUTION WITH VALUE 111478 IN : test.sol
+../test/RC2_8_5.txt
+
+----- WRITING SOLUTION WITH VALUE 176614 IN : test.sol
+../test/RC2_8_6.txt
+
+----- WRITING SOLUTION WITH VALUE 173222 IN : test.sol
+../test/RC2_8_7.txt
+
+----- WRITING SOLUTION WITH VALUE 166302 IN : test.sol
+../test/RC2_8_8.txt
+
+----- WRITING SOLUTION WITH VALUE 157110 IN : test.sol
+../test/RC2_8_9.txt
+
+----- WRITING SOLUTION WITH VALUE 154032 IN : test.sol
