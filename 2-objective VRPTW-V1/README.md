@@ -1,3 +1,16 @@
+# Version Information
+
+
+
+- 2023.1.15 - by yiwen wang
+
+  implement the MOEA/D+HGS, experimental results on solomon benchmark outperform other algorithms in terms of distance
+
+- 2023.1.19 - by Fei Liu
+
+  improve the ability of searching solutions with minimum vehicle number.
+
+
 
 ## Compiling the executable 
 
