@@ -136,6 +136,7 @@ public:
 	bool isExplicitDistanceMatrix;										// Indicates if the problem is with explicit distances (non-euclidean)
 	int nbClients;														// Number of clients (excluding the depot)
 	int nbVehicles;														// Number of vehicles
+	int nbMaxRoutes;														// Number of max routes for multiobjective vrptw
 	int durationLimit;													// Route duration limit
 	int vehicleCapacity;												// Capacity limit
 	int totalDemand;													// Total demand required by the clients

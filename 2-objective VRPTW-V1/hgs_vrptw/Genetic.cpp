@@ -2,6 +2,7 @@
 #include <time.h>
 #include <iterator>
 #include <unordered_set>
+#include <math.h>
 
 #include "Genetic.h"
 #include "Params.h"
@@ -300,77 +301,104 @@ void Genetic::run(int maxIterNonProd, int timeLimit)
                 // Then use the selected parents to create new individuals using OX and SREX
                 // Finally select the best new individual based on bestOfSREXAndOXCrossovers
                 
-                Individual* offspring = bestOfSREXAndOXCrossovers(std::make_pair(parent1, parent2));
-//                std::cout << "finishing creating offspring " << std::endl;
-                /* LOCAL SEARCH */
-                // Run the Local Search on the new individual
-                localSearch->run(offspring, params->penaltyCapacity, params->penaltyTimeWarp);
-//                std::cout << "finishing local search" << std::endl;
-                
-                
-                /* UPDATE MAX AND MIN COST*/
-                if(offspring->myCostSol.penalizedCost < population->normalize_penalizedcost_min) population->normalize_penalizedcost_min = offspring->myCostSol.penalizedCost;
-                if(offspring->myCostSol.nbRoutes < population->normalize_vehiclecost_min) population->normalize_vehiclecost_min = offspring->myCostSol.nbRoutes;
-                if(offspring->myCostSol.penalizedCost > population->normalize_penalizedcost_max) population->normalize_penalizedcost_max = offspring->myCostSol.penalizedCost;
-                if(offspring->myCostSol.nbRoutes > population->normalize_vehiclecost_max) population->normalize_vehiclecost_max = offspring->myCostSol.nbRoutes;
-                
-                /* UPDATE REFERENCE */
-//                std::cout << "----- STARTING UPDATING REFERENCES" << std::endl;
-                UpdateReference(offspring->myCostSol);
-                
-//                std::cout << "finishing updating reference" << std::endl;
-                /* INSERT INTO TEMPORARY POPULATION */
-//                std::cout << "offspring penalized cost is " << offspring->myCostSol.penalizedCost << std::endl;
-                Individual * myoffspring = new Individual;
-                *myoffspring= *offspring;
-//                std::cout << "myoffspring penalized cost is " << myoffspring->myCostSol.penalizedCost << std::endl;
-                pop_tmp.push_back(myoffspring);
-//                std::cout << "finishing updating temperary population" << std::endl;
-                
-                /* UPDATE EP */
-                if(myoffspring->isFeasible){
-                    bool if_add_offspr = true;
-                    int j = 0;
-                    for(j = 0; j < EP.size();){
-                        if(EP[j]->myCostSol.penalizedCost <= myoffspring->myCostSol.penalizedCost && EP[j]->myCostSol.nbRoutes <= myoffspring->myCostSol.nbRoutes){
-                            if_add_offspr = false;
-                            break;
-                        }
-                        if(EP[j]->myCostSol.penalizedCost >= myoffspring->myCostSol.penalizedCost && EP[j]->myCostSol.nbRoutes >= myoffspring->myCostSol.nbRoutes){
-                            EP.erase(EP.begin()+j);
-                            j = 0;
-                        }
-                        else{
-                            j++;
-                        }
-                    }
-            //            std::cout << "enter 2" << std::endl;
-                    if(if_add_offspr == true){
-                        restart_num++;
-                        EP.push_back(myoffspring);
-                        int j = 0;
-                        for(j = 0; j < EP_total.size();){
-                            if(EP_total[j][0] <= myoffspring->myCostSol.penalizedCost && EP_total[j][1] <= myoffspring->myCostSol.nbRoutes){
-                                if_add_offspr = false;
-                                break;
-                            }
-                            if(EP_total[j][0] >= myoffspring->myCostSol.penalizedCost && EP_total[j][1] >= myoffspring->myCostSol.nbRoutes){
-                                EP_total.erase(EP_total.begin()+j);
-                                j = 0;
-                            }
-                            else{
-                                j++;
-                            }
-                        }
-                        if(if_add_offspr == true){
-                            std::vector<double> tmp;
-                            tmp.push_back(myoffspring->myCostSol.penalizedCost);
-                            tmp.push_back(myoffspring->myCostSol.nbRoutes);
-                            EP_total.push_back(tmp);
-            //                std::cout << EP_total[0][0] << " " << EP_total[0][1] << std::endl;
-                        }
-                    }
-                }
+
+				params->nbMaxRoutes = params->nbVehicles;
+				int lastnbRoutes = params->nbVehicles;
+				bool decreasenbVehicles = true;
+
+				while (decreasenbVehicles){
+
+
+					Individual* offspring = bestOfSREXAndOXCrossovers(std::make_pair(parent1, parent2));
+	//                std::cout << "finishing creating offspring " << std::endl;
+					/* LOCAL SEARCH */
+					// Run the Local Search on the new individual
+					//std::cout << "local search start"<< std::endl;
+					localSearch->run(offspring, params->penaltyCapacity, params->penaltyTimeWarp);
+	//                std::cout << "finishing local search" << std::endl;
+					
+					//std::cout << "local search end"<< std::endl;
+					/* UPDATE MAX AND MIN COST*/
+					if(offspring->myCostSol.penalizedCost < population->normalize_penalizedcost_min) population->normalize_penalizedcost_min = offspring->myCostSol.penalizedCost;
+					if(offspring->myCostSol.nbRoutes < population->normalize_vehiclecost_min) population->normalize_vehiclecost_min = offspring->myCostSol.nbRoutes;
+					if(offspring->myCostSol.penalizedCost > population->normalize_penalizedcost_max) population->normalize_penalizedcost_max = offspring->myCostSol.penalizedCost;
+					if(offspring->myCostSol.nbRoutes > population->normalize_vehiclecost_max) population->normalize_vehiclecost_max = offspring->myCostSol.nbRoutes;
+					
+					/* UPDATE REFERENCE */
+	//                std::cout << "----- STARTING UPDATING REFERENCES" << std::endl;
+					UpdateReference(offspring->myCostSol);
+					
+	//                std::cout << "finishing updating reference" << std::endl;
+					/* INSERT INTO TEMPORARY POPULATION */
+	//                std::cout << "offspring penalized cost is " << offspring->myCostSol.penalizedCost << std::endl;
+					Individual * myoffspring = new Individual;
+					*myoffspring= *offspring;
+	//                std::cout << "myoffspring penalized cost is " << myoffspring->myCostSol.penalizedCost << std::endl;
+					pop_tmp.push_back(myoffspring);
+	//                std::cout << "finishing updating temperary population" << std::endl;
+					
+					/* UPDATE EP */
+					if(myoffspring->isFeasible){
+						bool if_add_offspr = true;
+						int j = 0;
+						for(j = 0; j < EP.size();){
+							if(EP[j]->myCostSol.penalizedCost <= myoffspring->myCostSol.penalizedCost && EP[j]->myCostSol.nbRoutes <= myoffspring->myCostSol.nbRoutes){
+								if_add_offspr = false;
+								break;
+							}
+							if(EP[j]->myCostSol.penalizedCost >= myoffspring->myCostSol.penalizedCost && EP[j]->myCostSol.nbRoutes >= myoffspring->myCostSol.nbRoutes){
+								EP.erase(EP.begin()+j);
+								j = 0;
+							}
+							else{
+								j++;
+							}
+						}
+				//            std::cout << "enter 2" << std::endl;
+						if(if_add_offspr == true){
+							restart_num++;
+							EP.push_back(myoffspring);
+							int j = 0;
+							for(j = 0; j < EP_total.size();){
+								if(EP_total[j][0] <= myoffspring->myCostSol.penalizedCost && EP_total[j][1] <= myoffspring->myCostSol.nbRoutes){
+									if_add_offspr = false;
+									break;
+								}
+								if(EP_total[j][0] >= myoffspring->myCostSol.penalizedCost && EP_total[j][1] >= myoffspring->myCostSol.nbRoutes){
+									EP_total.erase(EP_total.begin()+j);
+									j = 0;
+								}
+								else{
+									j++;
+								}
+							}
+							if(if_add_offspr == true){
+								std::vector<double> tmp;
+								tmp.push_back(myoffspring->myCostSol.penalizedCost);
+								tmp.push_back(myoffspring->myCostSol.nbRoutes);
+								EP_total.push_back(tmp);
+				//                std::cout << EP_total[0][0] << " " << EP_total[0][1] << std::endl;
+							}
+						}
+						if (offspring->myCostSol.nbRoutes==lastnbRoutes){
+							decreasenbVehicles = false;
+						}
+						else{
+
+							lastnbRoutes = offspring->myCostSol.nbRoutes;
+							params->nbMaxRoutes = lastnbRoutes-1;
+							}
+					}
+					else{
+						decreasenbVehicles = false;
+					}
+
+
+					
+
+
+					
+				}
             }
         }
         
@@ -389,7 +417,8 @@ void Genetic::run(int maxIterNonProd, int timeLimit)
         {
             population->managePenalties();
         }
-        if (nbIter % 50 == 0)
+        //if (nbIter % 50 == 0)
+		if(false) // not output intermediate information
         {
             
             std::cout << "nbIter: " << nbIter << std::endl;
@@ -400,13 +429,12 @@ void Genetic::run(int maxIterNonProd, int timeLimit)
                 //    population->normalize_vehiclecost_min = INT_MAX;
                 std::cout << "penalizedcost: " << EP_total[i][0] << " "<<(EP_total[i][0] - population->normalize_penalizedcost_min) / (population->normalize_penalizedcost_max - population->normalize_penalizedcost_min) << " vehiclecost: " << EP_total[i][1] << " " << (EP_total[i][1] - population->normalize_vehiclecost_min) / (population->normalize_vehiclecost_max - population->normalize_vehiclecost_min) << std::endl;
             }
-            if(nbIter == 150){
-                std::cout << std::endl;
-                for(int i = 0; i < population->totalpop.size(); i++){
-                    std::cout << "penalizedcost: " << population->totalpop[i]->myCostSol.penalizedCost << " vehiclecost: " << population->totalpop[i]->myCostSol.nbRoutes << std::endl;
-                }
-            }
-            
+            // if(nbIter == 150){
+            //     std::cout << std::endl;
+            //     for(int i = 0; i < population->totalpop.size(); i++){
+            //         std::cout << "penalizedcost: " << population->totalpop[i]->myCostSol.penalizedCost << " vehiclecost: " << population->totalpop[i]->myCostSol.nbRoutes << std::endl;
+            //     }
+            // }         
 
         }
         
@@ -529,7 +557,7 @@ Individual* Genetic::crossoverOX(std::pair<const Individual*, const Individual*>
 	doOXcrossover(candidateOffsprings[2], parents, start, end);
 	doOXcrossover(candidateOffsprings[3], parents, start, end);
 
-	// Return the best individual of the two, based on penalizedCost
+	// Return the best individual of the two based on penalizedCost with respect to different vehicle rnu
 	return candidateOffsprings[2]->myCostSol.penalizedCost < candidateOffsprings[3]->myCostSol.penalizedCost
 		? candidateOffsprings[2]
 		: candidateOffsprings[3];
@@ -564,7 +592,7 @@ void Genetic::doOXcrossover(Individual* result, std::pair<const Individual*, con
 	}
 
 	// Completing the individual with the Split algorithm
-	split->generalSplit(result, params->nbVehicles);
+	split->generalSplit(result, params->nbMaxRoutes);
 }
 
 Individual* Genetic::crossoverSREX(std::pair<const Individual*, const Individual*> parents)
@@ -830,12 +858,15 @@ Individual* Genetic::bestOfSREXAndOXCrossovers(std::pair<const Individual*, cons
 {
 	// Create two individuals, one with OX and one with SREX
 	Individual* offspringOX = crossoverOX(parents);
-	Individual* offspringSREX = crossoverSREX(parents);
+	return offspringOX;
+	//Individual* offspringSREX = crossoverSREX(parents);
 
-	//Return the best individual, based on penalizedCost
-	return offspringOX->myCostSol.penalizedCost < offspringSREX->myCostSol.penalizedCost
-		? offspringOX
-		: offspringSREX;
+	//Return the best individual, based on penalizedCost or the individual with less vehicles
+
+		// return offspringOX->myCostSol.penalizedCost < offspringSREX->myCostSol.penalizedCost
+		// ? offspringOX
+		// : offspringSREX;
+
 }
 
 Genetic::Genetic(Params* params, Split* split, Population* population, LocalSearch* localSearch) : params(params), split(split), population(population), localSearch(localSearch)

@@ -29,6 +29,7 @@ SOFTWARE.*/
 #include <string>
 #include <time.h>
 #include <vector>
+#include <math.h>
 
 #include "Individual.h"
 #include "LocalSearch.h"
